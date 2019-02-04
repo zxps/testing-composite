@@ -1,0 +1,58 @@
+ul,li { padding: 0; margin: 0; list-style: none; }
+.group {
+    font-size: 1.3em;
+}
+.posts {
+    padding-left: 1em;
+    padding-top: .5em;
+    padding-bottom: .8em;
+}
+.posts li {
+    margin-bottom: .3em;
+    background: #f1f1f1;
+    padding: .5em;
+}
+.posts .user {
+    margin-left: 1em;
+}
+.posts .user, .posts .date {
+    font-size: .93em;
+    background: #e7efff;
+    padding: 3px;
+}
+.topic form {
+    width: 90%;
+    padding: 1em;
+    background: #fbfbfb;
+}
+.topic form textarea {
+    width: 100%;
+}
+.top-trending {
+    margin-top: 1em;
+    padding: 1em;
+    background: rgb(240,240,240);
+}
+.top-trending li {
+    margin-top: .7em;
+}
+.top-trending .topic {
+    font-weight: bold;
+    display: table;
+    width: 100%;
+}
+.top-trending .content {
+    display: table;
+    width: 100%;
+    padding-left: .5em;
+}
+.top-trending .user {
+    display: inline-table;
+    font-size: .85em;
+    color: #737373;
+}
+.top-trending .created-at {
+    display: table;
+    font-size: .85em;
+    color: #737373;
+}

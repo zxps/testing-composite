@@ -1,0 +1,54 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+button {
+  background: #ffffff;
+  padding: 0.7em 1.4em 0.7em 1.4em;
+  box-shadow: 0 0 4px #bbbbbb;
+  border: 0px;
+  color: #565656;
+}
+
+.images-panel {
+  display: table;
+  padding-bottom: 5em;
+}
+.images-panel .content {
+  width: 100%;
+  display: table;
+  text-align: center;
+}
+.images-panel .content .content-frame {
+  padding: 1em;
+  background: #fdfdfd;
+  margin: 0 30px 30px 30px;
+  box-shadow: 0 0 12px #dadada;
+}
+
+.images-panel .content .content-frame h4 {
+  padding: 0;
+  margin: 0 0 2em;
+  text-align: left;
+}
+.images-panel .content .image-container {
+  display: inline-table;
+  margin: 0.3em;
+  box-shadow: 0 0 9px #a59d9d;
+}
+.images-panel .content .image-container .image {
+  margin: 0;
+  border: 0;
+  width: 150px;
+  height: 150px;
+}
+.images-panel .navigator {
+  margin-top: 1em;
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+.images-panel .navigator .button-next {
+  font-size: 1em;
+}
